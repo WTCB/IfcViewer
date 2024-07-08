@@ -1,0 +1,24 @@
+{
+  "name": "bim-app",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "0.160.0",
+    "typescript": "5.2.2",
+    "vite": "5.3.3"
+  },
+  "dependencies": {
+    "@thatopen/components": "~2.0.24",
+    "@thatopen/components-front": "~2.0.23",
+    "@thatopen/fragments": "~2.0.9",
+    "@thatopen/ui": "~2.0.8",
+    "@thatopen/ui-obc": "~2.0.12",
+    "jszip": "3.10.1",
+    "web-ifc": "0.0.55"
+  }
+}
